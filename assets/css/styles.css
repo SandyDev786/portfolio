@@ -1,0 +1,405 @@
+body{
+	background-color: #191D27;
+}
+
+
+ul{
+	list-style: none;
+	margin-top: 0.5rem;
+}
+
+li {
+    display: inline;
+    color: #B7B7B7;
+}
+a{
+	text-decoration: none;
+
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: #B7B7B7;
+	cursor: pointer;
+}
+
+a:link{
+	color: #B7B7B7;
+}
+
+a:hover, a:visited{
+	color: #FFDA63;
+	border-bottom: 1px solid #FFDA63;
+}
+
+p{
+	color: #B7B7B7;
+	line-height: 1.5rem;
+}
+
+h1,h2{
+	color: #ffffff;
+	font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2{
+	font-size: 2.5rem;
+	text-align: center;
+}
+h3{
+    color: #B7B7B7;
+    font-weight: 500;
+}
+button {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-top: 0.8rem;
+    padding-right: 2rem;
+    padding-bottom: 0.8rem;
+    margin-top: 2rem;
+    background-color: #FFDA63;
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #E2E2E2;
+        padding-bottom: 1.2rem;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+        padding-top: 1rem;
+}
+
+
+.social-icon {
+    margin-right: 1rem;
+}
+
+.color-yellow{
+		color: #FFDA63;
+}
+#home, .about-us-section {
+    display: flex;
+    margin-bottom: 8rem;
+        margin-left: 14%;
+    margin-right: 14%;
+}
+
+.about-us-section {
+    margin-bottom: 0rem;
+
+}
+
+.home-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+	display: flex;
+}
+
+.hello img {
+    margin-right: 1rem;
+}
+
+.home-right-content img{
+	width: 35vw;
+}
+
+.about-right-content {
+    margin-left: 10%;
+    width: 45%;
+}
+
+.skill-name {
+    display: flex;
+    justify-content: space-between;
+      width: 90%;
+}
+.progress-bar {
+    background: #15181E;
+    border-radius: 1rem;
+    height: 0.5rem;
+    width: 90%;
+    padding: 3px;
+}
+
+.progress-bar:after {
+    content: '';
+    display: block;
+    background: #FFDA63;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+.progress-section {
+    display: flex;
+}
+.skill {
+    width: 100%;
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#about, #portfolio {
+    background-color: #1F232D;
+    padding-top: 5rem;
+}
+.skills-section, #services{
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-bottom: 5rem;
+}
+
+#services{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.services-header, .portfolio-header, .portfolio-desc {
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   padding-top: 5rem;
+}
+
+.services-grid-item {
+    padding: 10px;
+    display: flex;
+    background: #1D212B;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.services-grid-item img {
+    width: 2.5rem;
+    margin-right: 3rem;
+}
+
+.portfolio-desc {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-desc p{
+    width: 45%;
+}
+
+.portfolio-item-info {
+    background-color: #FFDA63;
+    display: flex;
+    justify-content: center;
+        position: relative;
+    bottom: 1rem;
+}
+
+.portfolio-content, .contact-content {
+    display: flex;
+    margin-left: 14%;
+        margin-top: 5rem;
+        flex-wrap: wrap;
+}
+
+.portfolio-item {
+    margin-right: 1rem;
+    width: 20%;
+        margin-bottom: 2rem;
+}
+
+.portfolio-item-img {
+    width: 100%;
+}
+
+.portfolio-item-arrow{
+    margin-left: 1rem;
+    width: 2.5rem;
+}
+
+#portfolio{
+    text-align: center;
+        padding-bottom: 5rem;
+}
+
+
+#hire_me{
+    background-color: #191D27;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.hire-info {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.hire-text {
+    font-size: 2.5rem;
+}
+
+#contact {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #1F232D;
+}
+
+.contact-content{
+      margin-right: 14%;  
+}
+.contact-info{
+    width: 45%;
+}
+
+.contact-form{
+    width: 45%;
+    margin-left: 1rem;
+}
+.contact-info p {
+    width: 40%;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.form-field {
+    margin-bottom: 2rem;
+}
+
+.personal-info {
+    padding-top: 2rem;
+}
+
+.personal-info-item {
+    display: flex;
+}
+
+.personal-info-item img {
+    margin-right: 1.5rem;
+}
+
+.personal-info-item p{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.contact-info .header-social-icons {
+    margin-top: 5rem;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width:1024px){
+    
+    h1, h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    a {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .about-left-content {
+        width: 40%;
+    }
+    .about-left-content img{
+        width: 100%;
+    }
+    .skills-section {
+        padding-top: 5rem;
+    }
+    #services {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .services-grid {
+        padding-top: 3rem;
+    }
+    .services-grid-item {
+        padding: 5px;
+        margin-right: 1rem;
+    }
+    .services-grid-item img {
+        width: 2rem;
+        margin-right: 2rem;
+        margin-left: 1rem;
+    }
+    .hire-info {
+        font-size: 1rem;
+    }
+    .contact-info p {
+        width: 60%;
+        font-size: 0.9rem;
+    }
+
+}
+
+
+@media only screen and (max-width:767px){
+    #home{
+        flex-direction: column-reverse;
+    }
+    .home-left-content {
+        margin-top: 5rem;
+    }
+    .home-right-content img {
+        width: 100%;
+    }
+    .services-grid {
+        grid-template-columns: auto;
+    }
+    .about-us-section {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .about-left-content {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .about-right-content {
+        width: 100%;
+    }
+    .portfolio-desc p {
+        width: 85%;
+    }
+    .contact-content {
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+    }
+    .progress-section {
+        flex-wrap: wrap;
+    }
+    #contact {
+        padding-top: 1rem;
+    }
+    .contact-info {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 5rem;
+    }
+    input[type="text"] {
+        width: 75%;
+    }
+}
